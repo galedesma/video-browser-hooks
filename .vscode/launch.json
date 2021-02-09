@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Chrome",
+        "type": "firefox",
+        "request": "launch",
+        "url": "//localhost:3000",
+        "webRoot": "${workspaceRoot}/src",
+        "sourceMapPathOverrides": {
+          "webpack:///src/*": "${webRoot}/*"
+        }
+      },
+      {
+        "name": "Videos",
+        "type": "firefox",
+        "request": "launch",
+        "url": "//localhost:3000",
+        "webRoot": "${workspaceRoot}/videos/src",
+        "sourceMapPathOverrides": {
+          "webpack:///src/*": "${webRoot}/*"
+        }
+      }
+    ]
+  }
